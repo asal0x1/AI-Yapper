@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 
 GEMINI_API_KEY = "AQ.Ab8RN6JNFO-StIv755tJ6qNry4L3E7OSxPh5GkcA9sb7LOYmxQ"
-BOT_TOKEN = "8798895598:AAF--1tGtxARYMYGhamnmN3GBWuxTsryPXY"
+BOT_TOKEN = "Your TOKEN"
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-2.5-flash")
